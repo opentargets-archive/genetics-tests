@@ -47,3 +47,15 @@ For a file in POSTGAP TSV format, run:
 python reporter.py ./sample_data/postgap.20180108.asthma.tsv.gz
 ```
 This will produce a file in `tests/__reports__` with filename format format `<input_file>.REPORT.<timestamp>.ipynb`.
+
+
+# TODO
+
+monitor SNP=> gene connections for big shifts between releases
+
+example variations:
+
+https://www.nature.com/articles/s41588-018-0168-y
+
+
+see if there are more eqtl than tissues*tag variants for index_variants

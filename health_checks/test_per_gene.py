@@ -17,6 +17,7 @@ class TestPostgapPerGene(TestPostgapBase):
         )
 
     def test_each_gene_id_has_unique_gene_chrom(self):
+        # select count(distinct(chr_id)), gene_id from `g2v_draft.20180725` group by gene_id
         self.assert_groupby_series_is_unique_per_group(
             self.per_gene.gene_chrom
         )
