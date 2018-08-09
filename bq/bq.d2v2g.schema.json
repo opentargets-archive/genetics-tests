@@ -82,7 +82,7 @@
 {
     "name":"pmid",
     "type":"INTEGER",
-    "mode":"REQUIRED"
+    "mode":"NULLABLE"
 },
 {
     "name":"pub_date",
@@ -147,7 +147,7 @@
 {
     "name":"pval",
     "type":"FLOAT",
-    "mode":"REQUIRED"
+    "mode":"NULLABLE"
 },
 {
     "name":"index_chr_id",
