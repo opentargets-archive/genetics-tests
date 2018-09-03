@@ -23,8 +23,8 @@ def query_stackoverflow():
 def query_v2g():
     client = bigquery.Client()
     query_job = client.query("""
-        select distinct(chr_id) as chr 
-        from `g2v_draft.20180725` 
+        select distinct(chr_id) as chr
+        from `g2v_draft.20180725`
         order by chr_id desc
     """)
 
